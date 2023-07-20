@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Note:
+Before using the script below, it is needed to set the API_KEY in the `.env``
+to authorize the app to collect the current list of mangas as bestseller
+from New York Times's list. More info about how to set it is available [here](https://developer.nytimes.com/docs/books-product/1/overview).
+
 ## Available Scripts
 
 In the project directory, you can run:

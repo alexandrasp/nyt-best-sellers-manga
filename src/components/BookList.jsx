@@ -7,7 +7,7 @@ export default class BookList extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('')
+    axios.get('https://api.nytimes.com/svc/books/v3/lists/current/manga.json?api-key='+process.env.REACT_APP_API_KEY)
       .then(response => {
         const books = response.data.results.books;
         this.setState({ books });
