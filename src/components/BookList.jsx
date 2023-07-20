@@ -27,8 +27,10 @@ export default class BookList extends React.Component {
         {
           this.state.books.map(book =>
               <li key={book.title}> 
+                <img src={book.book_image}></img>
                 <div>
                   <span> Title: {book.title}</span>
+                  <span> Author: {book.author}</span>
                 </div>
               </li>
             )
